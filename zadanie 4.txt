@@ -1,0 +1,7 @@
+public class main {
+    public static void main(String[] args) {
+
+        String stringA = "Adrian" ;
+        String stringB = "Czarnecki" ;
+
+        String sumString = stringA + stringB;

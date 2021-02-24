@@ -1,0 +1,8 @@
+public class main {
+    public static void main(String[] args) {
+
+        int A = 10 ;
+        Double B = 2.3 ;
+        char C = 'f';
+        String D =  "zarty";
+        System.out.println(" int A + Double B");
