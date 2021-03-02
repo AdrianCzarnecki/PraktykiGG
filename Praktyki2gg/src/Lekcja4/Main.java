@@ -5,13 +5,13 @@ public class Main {
     public static void main(String[] args) {
 
 
-        
+
         //zadanie1
 
         System.out.println();
         System.out.println("ZADANIE 1");
         System.out.println();
-        Trojkat trojkat = new Trojkat(1,2,30);
+        Trojkat trojkat = new Trojkat(2,4,20);
         trojkat.ObliczPole();
         System.out.println(trojkat.getPole());
 
@@ -21,7 +21,7 @@ public class Main {
         System.out.println();
         System.out.println("ZADANIE 2");
         System.out.println();
-        Prostokat prostokat = new Prostokat(5,6);
+        Prostokat prostokat = new Prostokat(4,5);
         prostokat.PoleProstokat();
         System.out.println(prostokat.PoleProstokat());
         prostokat.Przekatne();
@@ -90,7 +90,7 @@ public class Main {
         System.out.println();
         System.out.println("ZADANIE 4 2/2");
         System.out.println();
-        Okrag Okrag = new Okrag(8,5);
+        Okrag Okrag = new Okrag(10,6);
         System.out.println("Pole = "+Okrag.Pole()+"\nObwód = "+Okrag.Obwod());
         System.out.println("Promień okręgu = " + Okrag.getPromien());
 
